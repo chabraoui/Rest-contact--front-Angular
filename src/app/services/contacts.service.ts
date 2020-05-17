@@ -7,6 +7,6 @@ import { DataService } from './data.service';
 export class ContactsService extends DataService {
 
 constructor( http : HttpClient) { 
-  super('http://localhost:8884/Contact', http);
+  super('https://contacte-api.herokuapp.com/Contact', http);
 }
 }
